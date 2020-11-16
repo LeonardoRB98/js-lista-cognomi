@@ -11,3 +11,7 @@ console.log(cognomeUtente);
 var listaCognomi = ['Pesce', 'Castenetto', 'Passaro', 'Grimaldi', 'Rossi', 'Verdi', 'Bianchi'];
 listaCognomi.push(cognomeUtente);
 console.log(listaCognomi);
+console.log(listaCognomi.sort());
+for (var i = 0; i < listaCognomi.length; i++) {
+document.getElementById('lista').innerHTML += "<li>" + listaCognomi[i] + "</li><br>";
+}
